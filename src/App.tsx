@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FileText, Combine, Scissors, RotateCw, FileStack, Trash2, Droplet, Copy, ArrowUpDown, Hash, Palette, Info, FilePlus, Camera, Crop, Zap, BookMarked } from 'lucide-react';
+import { FileText, Combine, Scissors, RotateCw, FileStack, Trash2, Droplet, Copy, ArrowUpDown, Hash, Palette, Info, FilePlus, Camera, Crop, Zap, BookMarked, Linkedin, Github, Twitter, Instagram, ExternalLink, Code2 } from 'lucide-react';
 import { ToolType } from './types';
 import Scanner from './components/Scanner';
 import MergeTool from './components/MergeTool';
@@ -353,6 +353,170 @@ function App() {
               <span className="px-4 py-2 bg-white rounded-lg text-sm font-medium text-slate-700 shadow-sm">100% Free Forever</span>
               <span className="px-4 py-2 bg-white rounded-lg text-sm font-medium text-slate-700 shadow-sm">Works Offline</span>
               <span className="px-4 py-2 bg-white rounded-lg text-sm font-medium text-slate-700 shadow-sm">20+ Tools Available</span>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-16 max-w-5xl mx-auto">
+          <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl p-12 shadow-2xl border border-slate-700">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mb-6 shadow-lg">
+                <Code2 className="w-10 h-10 text-white" />
+              </div>
+              <h2 className="text-4xl font-bold text-white mb-2">About the Developer</h2>
+              <p className="text-blue-300 text-lg">Meet the creator behind this amazing tool</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-3xl font-bold text-white mb-2">Aayush Sharma</h3>
+                  <p className="text-blue-300 font-semibold mb-4">Aspiring Software Developer | Web Development Enthusiast</p>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    A passionate Computer Science and Engineering (AI) student with keen interest in web development, artificial intelligence, and open-source contributions. With hands-on experience in React, Tailwind CSS, TypeScript, and database management, I enjoy building modern, user-friendly web applications that solve real-world problems.
+                  </p>
+                  <p className="text-slate-300 leading-relaxed">
+                    Beyond coding, I actively contribute to open-source projects, mentor peers, and participate in technical initiatives that foster learning and collaboration. Always eager to explore new technologies and bridge the gap between academic knowledge and real-world applications.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-3">Skills & Expertise</h4>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="bg-slate-700 rounded-lg px-3 py-2">
+                      <p className="text-sm text-slate-300"><span className="text-blue-400 font-semibold">Languages:</span> JavaScript, TypeScript, Python, Java, C++</p>
+                    </div>
+                    <div className="bg-slate-700 rounded-lg px-3 py-2">
+                      <p className="text-sm text-slate-300"><span className="text-blue-400 font-semibold">Frontend:</span> React, Tailwind CSS, HTML, CSS</p>
+                    </div>
+                    <div className="bg-slate-700 rounded-lg px-3 py-2">
+                      <p className="text-sm text-slate-300"><span className="text-blue-400 font-semibold">Backend:</span> Node.js, Firebase, MongoDB</p>
+                    </div>
+                    <div className="bg-slate-700 rounded-lg px-3 py-2">
+                      <p className="text-sm text-slate-300"><span className="text-blue-400 font-semibold">Tools:</span> Git, GitHub, VS Code</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="bg-slate-700 rounded-xl p-6">
+                  <h4 className="text-lg font-semibold text-white mb-4">Education</h4>
+                  <div className="space-y-3">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <p className="text-white font-semibold">B.Tech - Computer Science & Engineering (AI)</p>
+                      <p className="text-slate-300 text-sm">Poornima College of Engineering | 2022-2026</p>
+                      <p className="text-blue-300 text-sm font-medium">CGPA: 9.13</p>
+                    </div>
+                    <div className="border-l-4 border-blue-400 pl-4">
+                      <p className="text-white font-semibold">Senior Secondary (Grade 12)</p>
+                      <p className="text-slate-300 text-sm">Kendriya Vidyalaya No. 5, Jaipur | 91.6%</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-slate-700 rounded-xl p-6">
+                  <h4 className="text-lg font-semibold text-white mb-4">Experience Highlights</h4>
+                  <ul className="space-y-2 text-slate-300 text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400 mt-1">▸</span>
+                      <span><span className="text-white font-semibold">SAS Certified Specialist</span> - Visual Business Analytics (2025)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400 mt-1">▸</span>
+                      <span><span className="text-white font-semibold">Web Development Intern</span> - Ui System Pvt. Ltd. (2023)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400 mt-1">▸</span>
+                      <span><span className="text-white font-semibold">Project Team Lead</span> - TEK-Connect 2024 Exhibition</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400 mt-1">▸</span>
+                      <span><span className="text-white font-semibold">Technical Lead</span> - Poornima Nexus Open Source Project</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-slate-700 rounded-xl p-6">
+                  <h4 className="text-lg font-semibold text-white mb-4">Achievements</h4>
+                  <ul className="space-y-2 text-slate-300 text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-400 mt-1">★</span>
+                      <span><span className="text-white font-semibold">Ganga Quest 2021 Winner</span> - Ministry of Jal Shakti</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-400 mt-1">★</span>
+                      <span><span className="text-white font-semibold">SAS Certified</span> - Multiple SAS Analytics Certifications</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-400 mt-1">★</span>
+                      <span><span className="text-white font-semibold">CBSE Certificate of Merit</span> - Mathematics Standard</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-green-400 mt-1">★</span>
+                      <span><span className="text-white font-semibold">AI Badges</span> - AI For All (CBSE & Intel)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 pt-8 border-t border-slate-700">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-4">Notable Projects</h4>
+                  <ul className="space-y-2 text-slate-300 text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400">→</span>
+                      <span><span className="text-white font-semibold">Handwriting Converter</span> - Transform digital text to handwritten notes</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400">→</span>
+                      <span><span className="text-white font-semibold">PCE Library Platform</span> - Online knowledge repository</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400">→</span>
+                      <span><span className="text-white font-semibold">Poornima Nexus</span> - Open source collaboration platform</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-blue-400">→</span>
+                      <span><span className="text-white font-semibold">AIClassOf26</span> - B.Tech CSE (AI) Class website</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-4">Connect & Follow</h4>
+                  <div className="grid grid-cols-2 gap-3">
+                    <a href="https://www.linkedin.com/in/aayush-sharma-a44062299/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-slate-600 hover:bg-slate-500 rounded-lg transition-colors">
+                      <Linkedin className="w-5 h-5 text-blue-400" />
+                      <span className="text-white text-sm font-medium">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/aayushsh2003" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-slate-600 hover:bg-slate-500 rounded-lg transition-colors">
+                      <Github className="w-5 h-5 text-slate-300" />
+                      <span className="text-white text-sm font-medium">GitHub</span>
+                    </a>
+                    <a href="https://x.com/aayushSh2003" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-slate-600 hover:bg-slate-500 rounded-lg transition-colors">
+                      <Twitter className="w-5 h-5 text-sky-400" />
+                      <span className="text-white text-sm font-medium">Twitter</span>
+                    </a>
+                    <a href="https://www.instagram.com/aayushsh2003" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 bg-slate-600 hover:bg-slate-500 rounded-lg transition-colors">
+                      <Instagram className="w-5 h-5 text-pink-400" />
+                      <span className="text-white text-sm font-medium">Instagram</span>
+                    </a>
+                  </div>
+                  <a href="https://aayush-ki-pehchan.vercel.app/" target="_blank" rel="noopener noreferrer" className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors">
+                    <span className="text-white font-semibold">Visit Portfolio</span>
+                    <ExternalLink className="w-4 h-4 text-white" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-slate-400 text-sm">
+                Passionate about creating innovative solutions | Open Source Contributor | Always learning, always growing
+              </p>
             </div>
           </div>
         </section>
